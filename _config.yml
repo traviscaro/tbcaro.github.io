@@ -29,7 +29,7 @@ url: "tbcaro.github.io" # the base hostname & protocol for your site, e.g. http:
 github_username:  tbcaro
 
 # Build settings
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
