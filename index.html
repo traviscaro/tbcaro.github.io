@@ -9,6 +9,12 @@
 
     <title>{{ site.title }}</title>
 
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
     <!-- Styles -->
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
     
@@ -25,9 +31,9 @@
             <header class="navbar">
                 <div class="container">
                     <div class="navbar-brand">
-                        <!-- <a class="navbar-item">
-                            <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
-                        </a> -->
+                        <a class="navbar-item">
+                            <img src="{{ '/assets/images/T-Logo-1000x1000.png' | relative_url }}" alt="Logo">
+                        </a>
                         <!-- <span class="navbar-burger burger" data-target="navbarMenuHeroC">
                             <span></span>
                             <span></span>
