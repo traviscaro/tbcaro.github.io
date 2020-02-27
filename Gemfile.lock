@@ -272,7 +272,7 @@ DEPENDENCIES
   jekyll-admin
   jekyll-feed (~> 0.12)
   jekyll-seo-tag
-  minima (~> 2.5)
+  jekyll-sitemap
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)

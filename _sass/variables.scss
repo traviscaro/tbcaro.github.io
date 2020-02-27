@@ -1,0 +1,23 @@
+// Theme variables
+$registration-black: #000000;
+$rich-black: #001021;
+$gunmetal: #2A2D34;
+$rich-electric-blue: #00A5CF;
+$anti-flash-white: #EAF2EF;
+$deep-saffron: #FFA630;
+
+// Override Bulma variables
+$primary: $rich-electric-blue;
+$info: $gunmetal;
+// $success: ;
+$warning: $deep-saffron;
+// $danger: ;
+$light: $anti-flash-white;
+$dark: $rich-black;
+
+$background: $dark;
+$text: $light;
+$link: $light;
+$link-hover: $primary;
+
+$icon-dimensions-large: 6rem;
