@@ -1,5 +1,14 @@
 ---
 ---
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
 
 @import "variables";
 @import "bulma/bulma.sass";
+
+.is-underlined {
+    text-decoration: underline;
+}
+
+.is-caligraphy {
+    font-family: 'Dancing Script';
+}

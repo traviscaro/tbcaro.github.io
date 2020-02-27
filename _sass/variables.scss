@@ -15,9 +15,11 @@ $warning: $deep-saffron;
 $light: $anti-flash-white;
 $dark: $rich-black;
 
+$body-background-color: $dark;
 $background: $dark;
 $text: $light;
-$link: $light;
-$link-hover: $primary;
+$link: $primary;
+$link-hover: $light;
 
-$icon-dimensions-large: 6rem;
+$button-hover-color: initial;
+$button-hover-border-color: $link-hover;
