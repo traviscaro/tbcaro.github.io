@@ -22,6 +22,18 @@
     <script src="https://kit.fontawesome.com/4ef1e0c3bf.js" crossorigin="anonymous"></script>
 
     {% seo %}
+
+    {% if jekyll.environment == "production" %}
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159507003-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-159507003-1');
+        </script>
+    {% endif %}
 </head>
 
 <body class="has-background-dark">
